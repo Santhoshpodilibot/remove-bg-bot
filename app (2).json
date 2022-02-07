@@ -1,0 +1,30 @@
+{
+    "name": "Santhu image background remover",
+    "description": "Hi all iam your background remover boy",
+    "keywords": [
+        "Background",
+        "remover",
+        "python"
+    ],
+    "repository": "https://github.com/Santhoshpodilibot/remove-bg-bot.git",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "@botfather",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
