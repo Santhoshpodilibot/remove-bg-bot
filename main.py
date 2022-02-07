@@ -17,7 +17,7 @@ Bot = Client(
 START_TEXT = """Hello {},
 I am a media background remover bot. Send me a photo I will send the photo without background.
 
-Made by @ALBINPRAVEEN"""
+Made by @santhu_music_bot"""
 HELP_TEXT = """**More Help**
 
 - Just send me a photo
@@ -28,15 +28,15 @@ Made by @ALBINPRAVEEN"""
 ABOUT_TEXT = """**About Me**
 
 - **Bot :** `Backround Remover Bot`
-- **Creator :** [ALBINPRAVEEN](https://telegram.me/i_am_albin_praveen)
-- **Channel :** [ALBY BOT SUPPORT](https://telegram.me/musicwithalby)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram](https://pyrogram.org)"""
+- **Creator :** [sᴀɴᴛʜᴜ](https://t.me/santhu_music_bot)
+- **Channel :** [sᴀɴᴛʜᴜ ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ](https://telegram.me/santhuvc)
+- **Language :** [Python3](https://telugu.org)
+- **Library :** [Pyrogram](https://english.org)"""
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Channel', url='https://telegram.me/musicwithalby'),
-            InlineKeyboardButton('Feedback', url='https://telegram.me/i_am_albin_praveen')
+            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ', url='https://telegram.me/santhubotupadates'),
+            InlineKeyboardButton('ʟᴇᴀᴠᴇ ʏᴏᴜʀ ғᴇᴇᴅʙᴀᴄᴋ', url='https://telegram.me/santhu_music_bot')
         ],
         [
             InlineKeyboardButton('Help', callback_data='help'),
@@ -74,7 +74,7 @@ ERROR_BUTTONS = InlineKeyboardMarkup(
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Join Updates Channel', url='https://telegram.me/musicwithalby')
+            InlineKeyboardButton('Join Updates Channel', url='https://telegram.me/santhubotupadates')
         ]
     ]
 )
