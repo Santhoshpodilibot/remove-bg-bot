@@ -14,17 +14,17 @@ Bot = Client(
     api_hash=os.environ.get("API_HASH")
 )
 
-START_TEXT = """Hello {},
-I am a media background remover bot. Send me a photo I will send the photo without background.
+START_TEXT = """ʜᴇʟʟᴏ...🙄 {},
+ɪ ᴀᴍ ᴀ ᴍᴇᴅɪᴀ ʙᴀᴄᴋɢʀᴏᴜɴᴅ ʀᴇᴍᴏᴠᴇʀ ʙᴏᴛ. sᴇɴᴅ ᴍᴇ ᴀ ᴘʜᴏᴛᴏ ɪ ᴡɪʟʟ sᴇɴᴅ ᴛʜᴇ ᴘʜᴏᴛᴏ ᴡɪᴛʜᴏᴜᴛ ʙᴀᴄᴋɢʀᴏᴜɴᴅ.
 
-Made by @santhu_music_bot"""
-HELP_TEXT = """**More Help**
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ💖: @santhu_music_bot"""
+HELP_TEXT = """**ᴍᴏʀᴇ ʜᴇʟᴘ**
 
-- Just send me a photo
-- I will download it
-- I will send the photo without background
+- ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀ ᴘʜᴏᴛᴏ
+- ɪ ᴡɪʟʟ ᴅᴏᴡɴʟᴏᴀᴅ ɪᴛ
+- ɪ ᴡɪʟʟ sᴇɴᴅ ᴛʜᴇ ᴘʜᴏᴛᴏ ᴡɪᴛʜᴏᴜᴛ ʙᴀᴄᴋɢʀᴏᴜɴᴅ
 
-Made by @ALBINPRAVEEN"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ💖: @santhu_music_bot"""
 ABOUT_TEXT = """**About Me**
 
 - **Bot :** `Backround Remover Bot`
@@ -35,46 +35,46 @@ ABOUT_TEXT = """**About Me**
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ', url='https://telegram.me/santhubotupadates'),
-            InlineKeyboardButton('ʟᴇᴀᴠᴇ ʏᴏᴜʀ ғᴇᴇᴅʙᴀᴄᴋ', url='https://telegram.me/santhu_music_bot')
+            InlineKeyboardButton('💘ɴᴇᴛᴡᴏʀᴋ💘', url='https://telegram.me/santhubotupadates'),
+            InlineKeyboardButton('💛ʟᴇᴀᴠᴇ ʏᴏᴜʀ ғᴇᴇᴅʙᴀᴄᴋ❤', url='https://telegram.me/santhu_music_bot')
         ],
         [
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('About', callback_data='about'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('🔰help🔰', callback_data='help'),
+            InlineKeyboardButton('💙ᴀʙᴏᴜᴛ💙', callback_data='about'),
+            InlineKeyboardButton('😇ᴄʟᴏsᴇ🧐', callback_data='close')
         ]
     ]
 )
 HELP_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Home', callback_data='home'),
-            InlineKeyboardButton('About', callback_data='about'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('◁', callback_data='home'),
+            InlineKeyboardButton('🙄ᴀʙᴏᴜᴛ🙄', callback_data='about'),
+            InlineKeyboardButton('😊ᴄʟᴏsᴇ🧐', callback_data='close')
         ]
     ]
 )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Home', callback_data='home'),
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('◁', callback_data='home'),
+            InlineKeyboardButton('🔰ʜᴇʟᴘ🔰', callback_data='help'),
+            InlineKeyboardButton('😇ᴄʟᴏsᴇ🧐', callback_data='close')
         ]
     ]
 )
 ERROR_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('🔰ʜᴇʟᴘ🔰', callback_data='help'),
+            InlineKeyboardButton('😇ᴄʟᴏsᴇ🧐', callback_data='close')
         ]
     ]
 )
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Join Updates Channel', url='https://telegram.me/santhubotupadates')
+            InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://telegram.me/santhubotupadates')
         ]
     ]
 )
